@@ -52,12 +52,13 @@ export default function LoginScreen() {
           </TouchableOpacity>
         </View>
 
-        {/* Imagem do Cacto */}
-        <Image 
-          source={require('../assets/cacto.png')} // Ajuste o caminho dependendo de onde este arquivo está salvo
+        {/* Imagem do Cacto - Comentada para evitar o erro de arquivo não encontrado */}
+        {/* <Image 
+          source={require('../assets/cacto.png')}
           style={styles.cactusImage}
           resizeMode="contain"
-        />
+        /> 
+        */}
 
       </SafeAreaView>
 
